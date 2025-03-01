@@ -1,0 +1,50 @@
+ /* Client Card Styling */
+  .client-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .client-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .client-icon {
+    font-size: 2rem;
+    color: #3c348d;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Testimonial Styling */
+  .testimonial-card {
+    padding: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-icon {
+    font-size: 3rem;
+    color: #3c348d;
+    margin-bottom: 1rem;
+  }
+  
+  .bg-color{
+    background-color: #3c348d;
+  }
+
+  .btn-color-clients{
+    background-color: #f4a054;
+    color: white;
+  }
+
+    .btn-color-clients:hover{
+        background-color: #f4a054;
+        color: white;
+    }
+
+    /* Change Swiper pagination dot color */
+.swiper-pagination-bullet {
+    background-color: #3c348d !important; /* Change this to your preferred color */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #3c348d !important; /* Change active dot color */
+  }
+  

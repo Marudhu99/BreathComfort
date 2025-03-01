@@ -1,0 +1,25 @@
+/* Services Section */
+.service-card {
+    background: white;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    font-size: 2rem;
+    color: #3c348d; /* Bootstrap primary color */
+  }
+
+  .btn-color-service{
+    background-color: #3c348d;
+    color: white;
+  }
+  
+  .btn-color-service:hover{
+    background-color: #292952;
+    color: white;
+  }

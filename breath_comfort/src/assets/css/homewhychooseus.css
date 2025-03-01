@@ -1,0 +1,16 @@
+/* Why Choose Us Section */
+.feature-card {
+    background: white;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+    color: #3c348d; /* Bootstrap primary color */
+  }
+  
