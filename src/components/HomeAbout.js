@@ -19,11 +19,11 @@ const HomeAbout = () => {
                                 Our dedication to customer service has helped us build long-lasting
                                 relationships, making us the go-to choice for air conditioning needs.
                             </p>
-                            <a href="#" className="btn btn-color">Learn More About Us</a>
+                            <a href="#c" className="btn" style={{ backgroundColor: "#3c348d", color: "white" }}>Learn More About Us</a>
                         </div>
 
                         {/* Image */}
-                        <div className="col-md-6">
+                        <div className="col-md-6 mt-3">
                             <div className="rounded overflow-hidden">
                                 <img
                                     src="https://public.readdy.ai/ai/img_res/0a8af7ee8cdc6fc945240df92a3f690e.jpg"

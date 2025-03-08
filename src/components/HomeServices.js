@@ -38,10 +38,10 @@ const Services = () => {
             specific needs with professional expertise and dedication.
           </p>
         </div>
-        <div className="row">
+        <div className="row mt-5">
           {services.map((service, index) => (
-            <div key={index} className="col-md-6 col-lg-3 mb-4">
-              <div className="service-card p-4 shadow-sm text-center">
+            <div key={index} className="col-md-6 col-lg-3  mb-4">
+               <div className=" text-center  shadow-sm  p-4  service-card h-100">
                 <div className="service-icon">
                   <i className={`bi ${service.icon}`}></i>
                 </div>

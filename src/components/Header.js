@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap-icons/font/bootstrap-icons.css"; // Ensure Bootstrap Icons are included
 import "../assets/css/header.css";
 
 function Header() {
@@ -17,8 +18,8 @@ function Header() {
       <nav className="navbar navbar-expand-md navbar-light bg-white shadow fixed-top">
         <div className="container">
           {/* Logo */}
-          <Link className="navbar-brand fw-bold text-primary" to="/">
-            BCAS
+          <Link className="navbar-brand fw-bold" to="/">
+             BreadComfort
           </Link>
 
           {/* Mobile Menu Button */}
@@ -35,27 +36,27 @@ function Header() {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item p-4">
                 <Link className="nav-link text-dark" to="/" onClick={toggleMenu}>
-                  Home
+                  <i className="bi bi-house-door me-2"></i> Home
                 </Link>
               </li>
               <li className="nav-item p-4">
                 <Link className="nav-link text-dark" to="/about" onClick={toggleMenu}>
-                  About Us
+                  <i className="bi bi-info-circle me-2"></i> About Us
                 </Link>
               </li>
               <li className="nav-item p-4">
                 <Link className="nav-link text-dark" to="/services" onClick={toggleMenu}>
-                  Services
+                  <i className="bi bi-wrench-adjustable me-2"></i> Services
                 </Link>
               </li>
               <li className="nav-item p-4">
                 <Link className="nav-link text-dark" to="/products" onClick={toggleMenu}>
-                  Products
+                  <i className="bi bi-box-seam me-2"></i> Products
                 </Link>
               </li>
               <li className="nav-item p-4">
                 <Link className="nav-link text-dark" to="/contact" onClick={toggleMenu}>
-                  Contact Us
+                  <i className="bi bi-envelope me-2"></i> Contact Us
                 </Link>
               </li>
             </ul>

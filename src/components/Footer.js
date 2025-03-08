@@ -3,7 +3,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 
-function Footer() {
+function Footer() { 
   return (
     <footer className="bg-dark text-white py-5">
       <div className="container">
@@ -21,22 +21,22 @@ function Footer() {
             <h5 className="fw-bold">Quick Links</h5>
             <ul className="list-unstyled">
               <li className="py-2">
-                <a href="#home" className="text-secondary text-decoration-none">
+                <a href="/" className="text-secondary text-decoration-none">
                   Home
                 </a>
               </li>
               <li className="py-2">
-                <a href="#about" className="text-secondary text-decoration-none">
+                <a href="/about" className="text-secondary text-decoration-none">
                   About
                 </a>
               </li>
               <li className="py-2">
-                <a href="#services" className="text-secondary text-decoration-none">
+                <a href="/services" className="text-secondary text-decoration-none">
                   Services
                 </a>
               </li>
               <li className="py-2">
-                <a href="#contact" className="text-secondary text-decoration-none">
+                <a href="/contact" className="text-secondary text-decoration-none">
                   Contact
                 </a>
               </li>
@@ -71,13 +71,13 @@ function Footer() {
           <div className="col-md-3">
             <h5 className="fw-bold">Follow Us</h5>
             <div className="d-flex gap-3">
-              <a href="#" className="text-secondary fs-4">
+              <a href="#facebook" className="text-secondary fs-4">
                 <i className="bi bi-facebook me-2"></i>
               </a>
-              <a href="#" className="text-secondary fs-4">
+              <a href="#linkedin" className="text-secondary fs-4">
                 <i className="bi bi-linkedin me-2"></i>
               </a>
-              <a href="#" className="text-secondary fs-4">
+              <a href="#instagram" className="text-secondary fs-4">
                 <i className="bi bi-instagram me-2"></i>
               </a>
             </div>
@@ -86,7 +86,7 @@ function Footer() {
 
         {/* Copyright */}
         <div className="text-center border-top pt-3 text-secondary">
-          <p className="mb-0">© 2024 BCAS | All Rights Reserved.</p>
+          <p className="mb-0">© 2025 BCAS | All Rights Reserved.</p>
         </div>
       </div>
     </footer>

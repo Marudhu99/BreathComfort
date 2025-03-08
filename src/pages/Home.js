@@ -3,11 +3,11 @@ import HomeWhyChooseUs from "../components/HomeWhyChooseUs";
 import HomeServices from "../components/HomeServices";
 import HomeServicesClientsCTA from "../components/HomeServicesClientsCTA";
 import HomeAbout from "../components/HomeAbout";
+import Header from "../components/Header";
 
 function Home() {
     return (
         <>
-        
             {/* Hero Section */}
             <HomeHeroSection />
 

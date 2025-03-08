@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import React from "react";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -7,8 +7,6 @@ import "swiper/css/pagination";
 import "../assets/css/homeservicesclientscta.css";
 
 const HomeServicesClientsCTA = () => {
-  const [showContactForm, setShowContactForm] = useState(false);
-
   return (
     <>
       {/* Clients Section */}
@@ -20,7 +18,7 @@ const HomeServicesClientsCTA = () => {
               We take pride in serving some of the most prestigious organizations.
             </p>
           </div>
-          <Row className="gy-4">
+          <Row className="gy-4 justify-content-center">
             {[
               "Mahindra & Mahindra Ltd (MRV) Chennai",
               "Turbo Energy P Ltd OMR",
@@ -28,9 +26,9 @@ const HomeServicesClientsCTA = () => {
               "Praba's Vcare Health Clinic",
               "VeCuRa Wellness Clinic",
             ].map((client, index) => (
-              <Col md={4} lg={2} key={index}>
-                <Card className="text-center client-card">
-                  <Card.Body>
+              <Col xs={6} sm={4} md={3} lg={2} key={index} >
+                <Card className="text-center client-card w-100">
+                  <Card.Body >
                     <i className="bi bi-building client-icon"></i>
                     <Card.Title className="h6">{client}</Card.Title>
                   </Card.Body>
